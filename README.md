@@ -6,5 +6,5 @@ A flutter app UI project for Plypicker with state management and responsive desi
 - [Download Apk](https://github.com/Oneya4/Plypicker/raw/main/assets/app-release.apk)
 
 ### Demo
-- [<img src='Screenshot_20220201-013627[1].jpg' alt='github' height='520'>]()
+- [<img src='assets/plypicker.gif' alt='github' height='550'>]()
 
