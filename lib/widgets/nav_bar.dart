@@ -12,6 +12,7 @@ class NavBar extends StatefulWidget {
 class _NavBarState extends State<NavBar> {
   final List<Widget> _pages = [
     const HomePage(),
+    const CategoriesPage(),
     const FavoritesPage(),
   ];
 
@@ -45,6 +46,10 @@ class _NavBarState extends State<NavBar> {
             BottomNavigationBarItem(
               icon: Icon(Icons.home_outlined),
               label: 'Home',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.category),
+              label: 'Categories',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.favorite_border_sharp),
