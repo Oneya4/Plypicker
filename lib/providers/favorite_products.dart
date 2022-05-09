@@ -5,8 +5,6 @@ class FavoriteProducts with ChangeNotifier {
 
   void addToFavorites(Map<String, dynamic> product) {
     favorites.add(product);
-
-    print(favorites);
     notifyListeners();
   }
 
